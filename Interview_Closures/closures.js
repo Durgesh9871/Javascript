@@ -102,5 +102,28 @@ function increaseCount(){
     count++ 
 }
  
-// So, the problem with this code is the count variable can acces by anyone , So I have to make it a kind of private variable so no one can access it , and the count is only increases by this function , So here comes the role of data hiding in the picture . for example 
+// So, the problem with this code is the count variable can acces by anyone , So I have to make it a kind of private variable so no one can access it , and the count is only increases by this function , So here comes the role of data hiding in the picture .we can use closure for it  for example 
+
+function hideData (){
+    var count = 0 
+
+   return function increaseCount(){
+        count++
+        console.log(count)
+    }
+
+}
+let counter1 = hideData()
+counter1()
+
+//  So the data becomes private 
+let counter2 = hideData()
+counter2() ; counter2() ; counter2()
+
+// Here, we declare one more variable so the counter2 is not related with counter1 , its totally independent . 
+
+// ###  So its very bad in scalibility !! 
+
+//  So here comes the role of function Constructor 
+
 
