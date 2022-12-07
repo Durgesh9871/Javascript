@@ -109,7 +109,7 @@ function hideData (){
 
    return function increaseCount(){
         count++
-        console.log(count)
+        console.log("Data privacy topic start from here",count)
     }
 
 }
@@ -125,5 +125,33 @@ counter2() ; counter2() ; counter2()
 // ###  So its very bad in scalibility !!  So what we can do is we can use constructor function ! 
 
 //  So here comes the role of function Constructor 
+// So this is a constructor function so we have to use new Keyword 
+
+function Counter(){
+    var count = 0 
+    this.incremnetCount = function (){
+        count++
+        console.log("constructor" , count)
+    }
+    this.decrementCount = function (){
+        count-- 
+        console.log("constructor" ,count)
+    }
+}
+
+let counterFinal = new Counter() ;
+counterFinal.incremnetCount()
+counterFinal.decrementCount()
+counterFinal.incremnetCount()
 
 
+//  After all this here comes the disadvantages of closures 
+
+// 1.  There would be over consumption of memory in closures because every time is closure is formed, So its consumed a lot of memory and sometimes at those over close variables are not garbaged collected , So its accumulating a lot of memory when lot of closures are created 
+// 2. If its not handled properly , then its also cause to memory leakage , and it can also freaze the browser 
+
+
+// Qustion ? what is a garbage collector and what does it do ?? 
+
+// ans -  Garbage collector is the program in the browser or in the js engine wich kind of frees the un utilized memory .
+// 2. Js is basically a high level programming languange in these garbage collector is in js engine and when ever there is some un used variables in the memory, its takes it out from the memory basically it frees the memory whenever its find there is no longer need of it 
