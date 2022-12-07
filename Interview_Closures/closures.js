@@ -89,3 +89,18 @@ function Ooutest(){
 
 
 //  After all this explain some advantages of closures 
+// 1 . Its helps in data hiding and encapsulation  ------  explain ??  
+// 2. function currying 
+
+
+//  DATA HIDIND OR DATA PRIVACY :-  supposes if we have a variable and we want to have some data privacy over it like other functions and other peices of code cannot have access to that particular data , So that is know as data hiding or privacy 
+// WE can encapsulate that data by other functions or other part of programs cannot access it 
+
+let count = 0 
+
+function increaseCount(){
+    count++ 
+}
+ 
+// So, the problem with this code is the count variable can acces by anyone , So I have to make it a kind of private variable so no one can access it , and the count is only increases by this function , So here comes the role of data hiding in the picture . for example 
+
