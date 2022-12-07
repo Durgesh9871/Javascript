@@ -122,7 +122,7 @@ counter2() ; counter2() ; counter2()
 
 // Here, we declare one more variable so the counter2 is not related with counter1 , its totally independent . 
 
-// ###  So its very bad in scalibility !! 
+// ###  So its very bad in scalibility !!  So what we can do is we can use constructor function ! 
 
 //  So here comes the role of function Constructor 
 
