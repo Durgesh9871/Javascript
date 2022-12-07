@@ -67,4 +67,25 @@ function Outest(){
  ans1()
 
 
+//  Topic -- global conflicting variable 
+// Inside global scope we have same variable a but is work as same . if a variable inside outer is not present than its offcourse forms a closure with outer lexical environment and try to find the value of a in global scope 
+//  If a both side a is not present than it shows refrence error ------>   a is not defined 
 
+
+function Ooutest(){
+    var c = 20 
+    function Outer(b){
+        let a = 10 
+            function inner(){
+                console.log(a ,b , c)
+            }
+            return inner 
+        }
+       return Outer
+    }
+ let a = 100 
+ let ans2 = Ooutest()("world")
+ ans2()
+
+
+//  After all this explain some advantages of closures 
