@@ -155,3 +155,7 @@ counterFinal.incremnetCount()
 
 // ans -  Garbage collector is the program in the browser or in the js engine wich kind of frees the un utilized memory .
 // 2. Js is basically a high level programming languange in these garbage collector is in js engine and when ever there is some un used variables in the memory, its takes it out from the memory basically it frees the memory whenever its find there is no longer need of it 
+
+
+//  Question ?? How closures and garbage collector related to each other   
+//  Topic - relation of garbage collector closures and memory leaks ---------------------->
