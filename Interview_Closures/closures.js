@@ -159,3 +159,28 @@ counterFinal.incremnetCount()
 
 //  Question ?? How closures and garbage collector related to each other   
 //  Topic - relation of garbage collector closures and memory leaks ---------------------->
+
+
+function garbage(){
+    let x = 10 
+   return  function collect(){
+        // console.log(a)
+    }
+}
+
+garbage()()
+
+//  So here what is happening inside function is forming a closure with a outer variable x . And we can see that this variable is not in used so garbage collector collects it and frees the memory . 
+
+function Garbage(){
+    let x = 300 
+   return  function collect(){
+        console.log("x" , x)
+    }
+}
+
+let sum = Garbage()
+sum()
+
+
+//  So here what is happening , these variable is used in inner function and garbage collector does not collect it , So it not free the memory . 
