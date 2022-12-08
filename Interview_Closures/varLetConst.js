@@ -26,3 +26,28 @@ console.log("c" , c)
 // const z ; 
 // z=1 
 
+
+
+
+
+
+
+
+
+
+// Q  Kuldeep interview questions-------------------------------------------? 
+//  diff between undefined and null ? 
+//  what is box model   ? 
+//   what is the use of local storage ? 
+//  How do u render the data from api ? in which format ? 
+//  Diffrence betweeen margin padding box bodel ? 
+//  diff between html and html 5 ? 
+//  Oops concept ? 
+//  Types of local storage ? 
+// What appen in Api when we fetch the data ? 
+//  If Api return html data how we can access it ? 
+//  
+
+
+
+
