@@ -12,6 +12,7 @@ var b = 100
 var c = 200 
 var c = 2000 
 console.log("c" , c)
+console.log('d')
 
 
 //  But in terms of let its saying no duplicates decleration .... 
