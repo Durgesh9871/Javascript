@@ -10,7 +10,7 @@
 
 
 
-//  here we are calling outer and after that we are calling inner 
+//  here we are calling outer and after that we are calling inner  ; 
 function outer(){
 var a = 10 
    return  function inner(){
