@@ -42,7 +42,7 @@ var a = 10
         console.log(a ,b , c , "run")
     }
     return inner 
-}
+} 
 let c = 25 
 let ans = Oouter("hello")
 ans()
