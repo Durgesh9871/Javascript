@@ -39,11 +39,11 @@ Outer()()
 function Oouter(b){
 var a = 10 
     function inner(){
-        console.log(a ,b)
+        console.log(a ,b , c , "run")
     }
     return inner 
 }
-
+let c = 25 
 let ans = Oouter("hello")
 ans()
 
