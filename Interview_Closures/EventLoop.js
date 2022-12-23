@@ -18,19 +18,19 @@
 
 //  INTERVIEW QUESTIONS -------> 
 
-function x(){
-   for(var i=0 ; i<5 ; i++){
-    // function y(i){
-        setTimeout(()=>{
-            console.log(i)
-        },i * 1000)
-     }
+// function x(){
+//    for(var i=0 ; i<5 ; i++){
+//     function y(i){
+//         setTimeout(()=>{
+//             console.log(i)
+//         },i * 1000)
+//      }
 
-    //  y(i)
-    // }
+//      y(i)
+//     }
 
-}
-x()
+// }
+// x()
 
 //  1. It can be correct with let also , but we correct it with help of closures , problem is same its takes the adress instead of value . 
 
