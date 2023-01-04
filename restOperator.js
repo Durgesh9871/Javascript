@@ -2,8 +2,7 @@
 //  Its an example of rest operator 
 function rest(...other){
     console.log(other)
-    return
-    //  (a+b+c)
+    return (a+b+c)
 }
 
 const ans = rest(1,2,3,4,5,6)
