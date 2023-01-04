@@ -46,12 +46,3 @@ console.log('newStudents' , newStudents)
 
 
 
-const last = "name" 
-
-const print= function(){
-    const first = "hello"
-    console.log(first)
-    console.log(last)
-}
-
-print()
