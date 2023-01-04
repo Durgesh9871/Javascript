@@ -23,7 +23,7 @@ console.log('students' , names )
 
 
 //  EXAMPLE OF SPREAD OPERATOR -----------------------------------
-//  array with 
+//  array with ---------------------------
 
 let name = [1,2,3,5,8,6]
 
