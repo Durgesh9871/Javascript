@@ -16,9 +16,9 @@ const students = {
     gender:"girl",
 }
 
-const {names ,...rest} = students
+const {names ,...resting} = students
 
-console.log('students' , names , rest)
+console.log('students' , names )
 
 
 
@@ -36,8 +36,10 @@ const sum  = spread(...name)
 console.log("sum" , sum)
 
 //  object with ------------we use old obj of studnets -------------------------------
+// Interview question  how we can update it in spread operator  ----------------------------------
  
 var newStudents = {
-    ...students
+    ...students,
+    age:19 , 
 }
 console.log('newStudents' , newStudents)
