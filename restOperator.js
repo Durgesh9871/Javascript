@@ -16,9 +16,9 @@ const students = {
     gender:"girl",
 }
 
-const {names , gender ,age} = students
+const {names ,...rest} = students
 
-console.log('students' , names ,gender)
+console.log('students' , names )
 
 
 
