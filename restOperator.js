@@ -34,3 +34,10 @@ function spread(name){
 
 const sum  = spread(...name)
 console.log("sum" , sum)
+
+//  object with ------------we use old obj of studnets -------------------------------
+ 
+var newStudents = {
+    ...students
+}
+console.log('newStudents' , newStudents)
