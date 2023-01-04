@@ -18,7 +18,7 @@ const students = {
 
 const {names ,...rest} = students
 
-console.log('students' , names )
+console.log('students' , names , rest)
 
 
 
