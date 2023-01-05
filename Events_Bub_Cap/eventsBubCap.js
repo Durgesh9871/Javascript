@@ -5,14 +5,14 @@
 document.querySelector("#child")
 .addEventListener('click' ,()=>{
     console.log('child')
-})
+},false )
 
 document.querySelector("#parent")
 .addEventListener('click' ,()=>{
     console.log('parent')
-})
+},false )
 
 document.querySelector("#grandParent")
 .addEventListener('click' ,()=>{
     console.log('grandParent')
-})
+},false)
