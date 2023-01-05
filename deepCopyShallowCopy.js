@@ -24,3 +24,24 @@ user.name ="durgesh"
 
 console.log(user)
 console.log('obj1' , obj1)
+
+
+
+//  Deep copy ----------------------
+
+let obj2 = {
+    name:"amisha"  ,
+    data:{
+     role:"frontend"
+    },
+    work:function (){
+  return true 
+    }
+}
+let users = JSON.parse(JSON.stringify(obj2))
+//  Destructuring is also a way of doing this -------------
+// let user = {...obj1}
+users.name ="durgesh"  
+
+console.log(users)
+console.log('obj1' , obj2)
