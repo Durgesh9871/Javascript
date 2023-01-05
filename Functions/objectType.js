@@ -55,4 +55,16 @@ console.log(person1)
 // #- Classes to create OBJECT ----------------- CLASS CONSTRUCTOR ------------------
 // 5. we can use clases to create object ------------------------------------
 
+class People{
+   constructor(name , age){
+      this.name = name ;
+      this.age = age  ; 
+   } 
 
+   printWelcome(){
+    console.log("Welcome" + this.name)
+   }
+}
+
+let amisha = new People("amisha" , 19)
+console.log(amisha)
