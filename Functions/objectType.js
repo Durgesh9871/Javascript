@@ -13,4 +13,13 @@ let user1 = {
 user1.knowledge()
 
 
-//  
+//  2.object constructor -------------------- Its used very rarely ----------
+
+const obj = new Object() 
+obj.name="jonny" ,
+obj.class ="12th" ,
+obj.power = "100" 
+
+console.log(obj)
+
+
