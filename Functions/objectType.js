@@ -22,7 +22,7 @@ obj.power = "100"
 
 console.log(obj)
 
-//  3.function constructor ----------for reusing our obj again and again we can use this -------In terms of scalibility its very good 
+//  3.Function constructor ----------for reusing our obj again and again we can use this -------In terms of scalibility its very good 
 // 2 In function constructor we create a blue print here -----------------------
 
 function User(name , age , power ){
@@ -37,7 +37,8 @@ console.log(user)
 
 
 
-//  Factory Function --------------------------
+//  4. Factory Function --------------------------
+
 //  if we dont want to use new Keyword we can simply create a function and return an object this is known as factory function ---------------------
 
 function Person(name , age){
@@ -49,3 +50,6 @@ function Person(name , age){
 
 const person1 = Person("durgesh " , 19)
 console.log(person1)
+
+
+// 5.
