@@ -28,7 +28,7 @@ console.log('obj1' , obj1)
 
 
 //  Deep copy ----------------------
-
+//  Make a copy of value 
 let obj2 = {
     name:"amisha"  ,
     data:{
