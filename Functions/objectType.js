@@ -52,5 +52,7 @@ const person1 = Person("durgesh " , 19)
 console.log(person1)
 
 
-// #- Classes to create OBJECT -----------------
+// #- Classes to create OBJECT ----------------- CLASS CONSTRUCTOR ------------------
 // 5. we can use clases to create object ------------------------------------
+
+
