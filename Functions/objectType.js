@@ -62,9 +62,10 @@ class People{
    } 
 
    printWelcome(){
-    console.log("Welcome" + this.name)
+    console.log("Welcome" +" "+ this.name)
    }
 }
 
 let amisha = new People("amisha" , 19)
 console.log(amisha)
+amisha.printWelcome()
