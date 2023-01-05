@@ -33,3 +33,4 @@ function User(name , age , power ){
 
 let user = new User("sima" , 22 , 32)
 console.log(user)
+//  I can construct as many objects as I want with these blue print ------------------------
