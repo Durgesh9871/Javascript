@@ -1,5 +1,7 @@
 
 
+//  Objevct copy -------------------------
+// In Object copy makes by refrence --------------
 
 let obj = {
     name:"shivani"
