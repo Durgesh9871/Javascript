@@ -4,4 +4,4 @@ let obj = {
     age:10 , 
 }
 
-console.log(obj)
+console.log(obj)    
