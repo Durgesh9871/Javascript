@@ -5,8 +5,9 @@
 //  e.stopPropagation() stops the event propagation cycle which is actually a good way if we only want to excute one event
 //  if we use e.stop then the event would not bubble out or if the value is true then the event is not going to trickle  
 document.querySelector("#child")
-.addEventListener('click' ,()=>{
+.addEventListener('click' ,(e)=>{
     console.log('child')
+    e.stopPropagation()
 },false )
 
 document.querySelector("#parent")
@@ -15,7 +16,7 @@ document.querySelector("#parent")
 },false )
 
 document.querySelector("#grandParent")
-.addEventListener('click' ,(e)=>{
+.addEventListener('click' ,()=>{
     console.log('grandParent')
-    e.stopPropagation()
+   
 },false)
