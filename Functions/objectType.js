@@ -34,3 +34,18 @@ function User(name , age , power ){
 let user = new User("sima" , 22 , 32)
 console.log(user)
 //  I can construct as many objects as I want with these blue print ------------------------
+
+
+
+//  Factory Function --------------------------
+//  if we dont want to use new Keyword we can simply create a function and return an object this is known as factory function ---------------------
+
+function Person(name , age){
+    return {
+        name: name ,
+        age :age 
+    }
+}
+
+const person1 = Person("durgesh " , 19)
+console.log(person1)
