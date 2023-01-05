@@ -22,4 +22,6 @@ obj.power = "100"
 
 console.log(obj)
 
+//  3.function constructor ----------for reusing our obj again and again we can use this -------In terms of scalibility its very good
+
 
