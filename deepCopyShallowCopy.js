@@ -18,6 +18,8 @@ let obj1 = {
     name:"amisha"
 }
 let user = Object.assign({} , obj1) 
+//  Destructuring is also a way of doing this -------------
+// let user = {...obj1}
 user.name ="durgesh"  
 
 console.log(user)
