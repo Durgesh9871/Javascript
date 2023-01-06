@@ -14,7 +14,7 @@ let cart = ["shirt" , "pant" ,"shoes"]
 // const api = 'https://tan-real-buffalo.cyclic.app/Fish&SeaFood' 
 
 
- const  foodData = async ()=>{
+  async function foodData(){
     try{
         let res = await fetch('https://tan-real-buffalo.cyclic.app/Fish&SeaFood')
         let data = await res.json()
