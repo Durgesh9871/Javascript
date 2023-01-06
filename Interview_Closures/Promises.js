@@ -11,15 +11,17 @@ let cart = ["shirt" , "pant" ,"shoes"]
 
 //  PROMISES ------------> 
 
-// const api = 'https://api.publicapis.org/entries' 
+const api = 'https://tan-real-buffalo.cyclic.app/Fish&SeaFood' 
 
- function call(){
-    console.log('world')
-    return function(){
-        console.log('hello')
-    }
- }
- call()
+//  function call(){
+//     console.log("world")
+//    payment(function (){
+//     console.log('hello')
+//   })
+   
+//  }
+//  const work = call()
+// //  work()
 
 
  
