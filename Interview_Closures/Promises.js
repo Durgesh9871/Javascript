@@ -1,6 +1,6 @@
 
 //  CALL BACKS ------> 
-// let cart = ["shirt" , "pant" ,"shoes"]
+let cart = ["shirt" , "pant" ,"shoes"]
 
 // api.createOrder(cart , function (){
 //     api.payment(function (){
@@ -13,8 +13,13 @@
 
 // const api = 'https://api.publicapis.org/entries' 
 
-
-
+ function call(){
+    console.log('world')
+    return function(){
+        console.log('hello')
+    }
+ }
+ call()
 
 
  
