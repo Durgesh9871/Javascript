@@ -11,7 +11,26 @@ let cart = ["shirt" , "pant" ,"shoes"]
 
 //  PROMISES ------------> 
 
-const api = 'https://tan-real-buffalo.cyclic.app/Fish&SeaFood' 
+// const api = 'https://tan-real-buffalo.cyclic.app/Fish&SeaFood' 
+
+
+ const call = async ()=>{
+    try{
+        let res = await fetch('https://tan-real-buffalo.cyclic.app/Fish&SeaFood')
+        let data = res.json()
+        console.log(data)
+    }
+    catch(err){
+         console.log("err")
+    }
+   
+
+
+}
+
+call()
+
+
 
 //  function call(){
 //     console.log("world")
