@@ -6,7 +6,6 @@ const getData = ()=>{
 }
 
 //  With debouncing ---------------------------- 
-
 const getDebouncing = (data , delay)=>{
     let timer ; 
     return function(){
@@ -16,5 +15,9 @@ const getDebouncing = (data , delay)=>{
         },delay)
     }
 }
+
+
+//  we can implement debouncing like this also but the chance is the environment and lexical scope is not 
+// correct and might have chance same function is not called -------------
 
 const better = getDebouncing(getData , 1000)
