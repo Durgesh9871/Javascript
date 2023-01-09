@@ -7,5 +7,5 @@
 let count = 0 
 
 const IncreaseCount = ()=>{
-    
+    console.log("Throttling" , count++)
 }
