@@ -9,3 +9,4 @@ let counting = 0
 const IncreaseCount = ()=>{
     console.log("Throttling" , counting++)
 }
+
