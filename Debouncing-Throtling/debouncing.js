@@ -32,6 +32,6 @@ const getDebouncing = (fn , delay)=>{
         },delay)
     }
 }
-//  
+//  So here we use context and args so the lexical scope and environment are correct and same function is called .
 
 const better = getDebouncing(getData , 1000)
