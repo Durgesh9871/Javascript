@@ -10,6 +10,7 @@ const IncreaseCount = ()=>{
     console.log("Throttling" , counting++)
 }
 
+//  We can also maintain our context and this case here and if any arguments are passes we can also maintain it -------------------
 
 const throttling = (func , limit)=>{
     let flag = true 
