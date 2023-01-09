@@ -11,7 +11,7 @@ const IncreaseCount = ()=>{
 }
 
 
-const throtling = (func , limit)=>{
+const throttling = (func , limit)=>{
     let flag = true 
     return function(){
        if(flag == true){
