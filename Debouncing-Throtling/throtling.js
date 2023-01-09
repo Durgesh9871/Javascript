@@ -17,6 +17,10 @@ const throtling = (func , limit)=>{
        if(flag == true){
         func()
         flag = false 
+
+        setTimeout(()=>{
+         flag = true 
+        },limit)
        }
     }
 
