@@ -26,11 +26,12 @@ const getDebouncing = (fn , delay)=>{
     return function(){
         clearTimeout(timer) ; 
       timer =  setTimeout(()=>{
-        let context = this , args = arguments 
+        let context = this ,
+         args = arguments 
            getData.apply(context , arguments)
         },delay)
     }
 }
-
+//  
 
 const better = getDebouncing(getData , 1000)
