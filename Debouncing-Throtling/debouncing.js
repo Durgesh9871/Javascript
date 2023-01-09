@@ -15,4 +15,4 @@ const getDebouncing = (data , delay)=>{
     }
 }
 
-const better = getDebouncing(getData , 300)
+const better = getDebouncing(getData , 1000)
