@@ -12,7 +12,13 @@ const IncreaseCount = ()=>{
 
 
 const throtling = (func , limit)=>{
-    
+    let flag = true 
+    return function(){
+       if(flag == true){
+        func()
+        flag = false 
+       }
+    }
 
 }
 
