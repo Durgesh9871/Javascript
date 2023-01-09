@@ -10,3 +10,5 @@ const IncreaseCount = ()=>{
     console.log("Throttling" , counting++)
 }
 
+
+const betterThrottling = throttling(IncreaseCount , 1000)
