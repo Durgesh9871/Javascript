@@ -11,8 +11,9 @@ const IncreaseCount = ()=>{
 }
 
 
-const throtling = ()=>{
+const throtling = (func , limit)=>{
     
+
 }
 
 const betterThrottling = throttling(IncreaseCount , 1000)
