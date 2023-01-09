@@ -28,4 +28,6 @@ const throttling = (func , limit)=>{
 
 }
 
+//  for rembering why apply see call , apply, bind code --------------------------------------
+
 const betterThrottling = throttling(IncreaseCount , 1000)
