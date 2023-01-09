@@ -8,8 +8,10 @@ const getData = ()=>{
 //  With debouncing ---------------------------- 
 
 const getDebouncing = (data , delay)=>{
+    let timer ; 
     return function(){
-        setTimeout(()=>{
+        clearTimeout(timer) ; 
+      timer =  setTimeout(()=>{
            data()
         },delay)
     }
