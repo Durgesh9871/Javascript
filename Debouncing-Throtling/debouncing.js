@@ -7,9 +7,11 @@ const getData = ()=>{
 
 //  With debouncing ---------------------------- 
 
-const getDebouncing = ()=>{
+const getDebouncing = (data , delay)=>{
     return function(){
-        
+        setTimeout(()=>{
+           data()
+        },delay)
     }
 }
 
