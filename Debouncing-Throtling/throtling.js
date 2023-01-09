@@ -15,8 +15,9 @@ const IncreaseCount = ()=>{
 const throttling = (func , limit)=>{
     let flag = true 
     return function(){
+        let context = this , args = arguments ;
        if(flag == true){
-        func()
+        func.apply(context , args)
         flag = false 
 
         setTimeout(()=>{
