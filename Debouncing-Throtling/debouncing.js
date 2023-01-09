@@ -21,5 +21,15 @@ const getData = ()=>{
 // correct and might have chance same function is not called with same arguments------------- 
 
 
+const getDebouncing = (data , delay)=>{
+    let timer ; 
+    return function(){
+        clearTimeout(timer) ; 
+      timer =  setTimeout(()=>{
+           data()
+        },delay)
+    }
+}
+
 
 const better = getDebouncing(getData , 1000)
