@@ -1,6 +1,7 @@
 //  ABOUT MAP IS HERE ------------------------------The .map() Method is here --------------------
 
-// Defination:- Map creates a new array by calling a function for  every element 
+// Defination:- Map creates a new array by calling a function for each element once  in an array 
+// Map does not call the function when the array is empty ; 
 const myName = ["durgesh" , "aman" ,"radha" , "sima" , "amisha"]
  
 
