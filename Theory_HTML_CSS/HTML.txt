@@ -25,9 +25,10 @@ ANS - Major diffrence is :-
  Div :- Div is like a container and its      |      Span is mostly used to wrap A word and highlighting it;
  mostly used to wrap a sections              |
                                              |
-                                             |
-                                             |
-                                             |
-                                             |
-        
+                                             
+
+ -----------------------------------------------------------------------------------------------------------
+
+QUESTION - What is iframe tag in HTML5 ? 
+ANS -        
  
