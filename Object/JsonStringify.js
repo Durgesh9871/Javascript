@@ -10,3 +10,6 @@ JSON.stringify( {
 console.log(JSON.stringify({ x: 5, y: 6 }));
 
 console.log(obj)
+
+
+//  JSON PARSE IS HERE --------------------------------
