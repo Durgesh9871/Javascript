@@ -39,4 +39,6 @@ ANS -  iframe also know as inline frame ;
 
  -----------------------------------------------------------------------------------------------------------
 
-QUESTION - 
+QUESTION - What are formatting tags ? 
+ANS - formatting tags are used to change the apprence of the text ; 
+2. They are used to make the text bold, Italic , Underline etc ; 
