@@ -16,7 +16,6 @@ console.log(obj)
 
 //  JSON PARSE IS HERE --------------------------------  
   
-
 let parse = JSON.parse({
     "x":1 ,
     "y":2 , 
