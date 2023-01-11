@@ -3,7 +3,7 @@ let obj = {
     name:"durgesh" , 
     age:19, 
 }
-Object.freeze(obj) 
+// Object.freeze(obj) 
 
-obj.name ="sima" ; 
+obj.class = 7 ; 
 console.log(obj)
