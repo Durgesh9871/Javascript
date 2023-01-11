@@ -20,5 +20,14 @@ ANS - HTML is a primary language for developing web pages;
 QUESTION - WHAT IS DIFFRENCE BETWEEN DIV AND SPAN TAG ? 
 
 ANS - Major diffrence is :- 
- Div - Div is a block level element ; 
- Span - Span is a in-line element ; 
+ Div - Div is a block level element ;        |      Span - Span is a in-line element ;
+                                             |
+ Div :- Div is like a container and its      |      Span is mostly used to wrap A word and highlighting it;
+ mostly used to wrap a sections              |
+                                             |
+                                             |
+                                             |
+                                             |
+                                             |
+        
+ 
