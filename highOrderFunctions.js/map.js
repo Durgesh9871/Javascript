@@ -11,3 +11,7 @@ let ans = myName.map((item)=>{
 })
 
 console.log(ans)
+
+
+// FOR EACH METHOD //
+// For each method is used to looping through the array , Its does not return an array 
