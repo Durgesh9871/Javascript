@@ -22,3 +22,6 @@ let obj2 = {
 Object.seal(obj2) 
 
 obj2.name = "raman"
+obj2.class = 7 ; 
+
+console.log(obj2)
