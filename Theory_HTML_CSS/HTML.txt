@@ -36,3 +36,7 @@ ANS -  iframe also know as inline frame ;
 
 3. They are commonly used in embeding the external ads , videos 
  
+
+ -----------------------------------------------------------------------------------------------------------
+
+QUESTION - 
