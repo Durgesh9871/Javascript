@@ -1,9 +1,10 @@
 
-// GENERATOR FUNCTION -------------------------------  
+// GENERATOR FUNCTION -------------------------------   
 
+//  Generator symbol is start ------------------ **** 
 
 
 function* generate(){
 
-    
+
 }
