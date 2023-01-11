@@ -18,7 +18,6 @@ console.log(ans)
 
 let arr = ["deep" , "sheep" ,"meep" ,"keep" ,"neem" ,"jeep"] 
 
-let each = arr.forEach((item)=>{
-    return item 
+ arr.forEach((item)=>{
+    console.log(item)
 })
-console.log(each)
