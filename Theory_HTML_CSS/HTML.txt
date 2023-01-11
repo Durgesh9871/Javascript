@@ -2,4 +2,11 @@ QUESTION - why doctype is used in html ;
 
 ANS - Doctype is used to inform the browser about the version of html used in the document. 
 2. It's called document type deceleration (DTD).  
-3. This deceleration is very simple in Html file. 
+3. This deceleration is very simple in Html file.  
+
+-----------------------------------------------------------------------------------------------------------
+
+
+QUESTION - what is diffrence between HTML and span HTML5 ; --- MAIN QUESTION ;
+
+ANS - HTML is a primary language for developing web pages; 
