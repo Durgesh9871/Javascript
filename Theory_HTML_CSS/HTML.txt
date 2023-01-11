@@ -71,3 +71,4 @@ Inline-Elements :- Inline elements are always starts from the same line ;
 3. For example :- span , button etc 
 
 
+-----------------------------------------------------------------------------------------------------------
