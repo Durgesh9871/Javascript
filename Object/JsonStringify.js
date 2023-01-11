@@ -15,7 +15,8 @@ console.log(obj)
 
 
 //  JSON PARSE IS HERE --------------------------------  
-  
+//   Defination :-   When receiving data from a web server, the data is always a string. Parse the data with JSON.parse() , and the data becomes a JavaScript object. 
+
 let parse = JSON.parse({
     "x":1 ,
     "y":2 , 
