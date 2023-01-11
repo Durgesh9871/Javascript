@@ -10,4 +10,4 @@ ANS - Doctype is used to inform the browser about the version of html used in th
 QUESTION - what is diffrence between HTML and span HTML5 ; --- MAIN QUESTION ;
 
 ANS - HTML is a primary language for developing web pages; 
- 2. HTML5 is a new version of HTML with some new functionalities, for ex:- HTML does not support audio and video 
+ 2. HTML5 is a new version of HTML with some new functionalities, for ex:- HTML does not support audio and video but HTML5 supports both audio and video ; 
