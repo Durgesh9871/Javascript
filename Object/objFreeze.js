@@ -27,3 +27,7 @@ obj2.class = 7 ;
 console.log(obj2)  
 
 //  So in obj.seal() new property cannot be added and old property cannot be removed  ; 
+
+
+//  SET IS HERE -----------------------------------
+
