@@ -18,3 +18,7 @@ let obj2 = {
     name:"sima" , 
     age:20 , 
 }
+
+Object.seal(obj2) 
+
+obj2.name = "raman"
