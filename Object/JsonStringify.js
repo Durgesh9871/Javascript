@@ -20,3 +20,5 @@ let parse = JSON.parse({
     "y":2 , 
     "z":3 , 
 })
+
+console.log(parse)
