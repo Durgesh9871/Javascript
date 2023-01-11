@@ -14,3 +14,7 @@ console.log(obj)
 
 //  OBJECT SEAL STARTS HERE ----------------------------------
 
+let obj2 = {
+    name:"sima" , 
+    age:20 , 
+}
