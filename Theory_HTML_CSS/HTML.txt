@@ -41,4 +41,33 @@ ANS -  iframe also know as inline frame ;
 
 QUESTION - What are formatting tags ? 
 ANS - formatting tags are used to change the apprence of the text ; 
-2. They are used to make the text bold, Italic , Underline etc ; 
+2. They are used to make the text bold, Italic , Underline etc ;  
+
+-----------------------------------------------------------------------------------------------------------
+
+QUESTION - what is diffrence in b and strong tag in html ? 
+
+ANS :- Bold - Its used to bold the text, So user can notice it , except it , Its does not conatin any importance  ; 
+
+Strong :- Strong tag shows the strong important of context, Its used to higlight importance things , Its contains very much importance ; 
+2. We can show the seriousness and importance ; 
+
+
+-----------------------------------------------------------------------------------------------------------
+
+QUESTION - What is view port attribute in html ; 
+
+Ans - view port is the user's  visible  area of a web page ; Its differs screen to screen ; 
+
+-----------------------------------------------------------------------------------------------------------
+
+QUESTION - What is block level element and inline-element ; 
+ANS - Block level element are those element which always start from a new line ; 
+2. Block level element always take the full width  
+3. For example - p , div tag and  H1 tag , etc 
+
+Inline-Elements :- Inline elements are always starts from the same line ; 
+2. They take only that much space which is needed 
+3. For example :- span , button etc 
+
+
