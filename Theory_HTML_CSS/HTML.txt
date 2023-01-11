@@ -1,0 +1,4 @@
+QUESTION - why doctype is used in html ;  
+
+ANS - Doctype is used to inform the browser about the version of html used in the document. 
+2. It's called document type deceleration (DTD). 
