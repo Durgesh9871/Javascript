@@ -1,4 +1,6 @@
-//  Json stringfify logic is here ---------------------------
+//  Json stringfify logic is here --------------------------- 
+// The JSON.stringify()  method converts a JavaScript value to a JSON string 
+//  Except Number it doest not convert number into JSON format ; 
 
 
 let obj = 
