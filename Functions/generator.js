@@ -1,2 +1,8 @@
 
-// GENERATOR FUNCTION -------------------------------
+// GENERATOR FUNCTION -------------------------------  
+
+
+
+function* generate(){
+
+}
