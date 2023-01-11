@@ -15,3 +15,10 @@ console.log(ans)
 
 // FOR EACH METHOD //
 // For each method is used to looping through the array , Its does not return an array 
+
+let arr = ["deep" , "sheep" ,"meep" ,"keep" ,"neem" ,"jeep"] 
+
+let each = arr.forEach((item)=>{
+    return item 
+})
+console.log(each)
