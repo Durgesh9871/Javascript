@@ -34,4 +34,5 @@ the breakpoints for making the page responsive is :-
 
 -----------------------------------------------------------------------------------------------------------
 
-QUESTION - what is bom in css  -? 
+QUESTION - what is bom in css  -?  
+Ans - BOM stand for BROWSER OBJECT MODEL (BOM) ; 
