@@ -20,3 +20,13 @@ CSS3 :- css3 makes web pages more attractive and take less time to create
 QUESTION - WHAT IS THE SELECTOR IN CSS ? 
 ANS - Css selector are used to select or find  the html elements that you want to style 
 2. For example :- Id selector , class selector , Elements selector  , universal selector , pseudo class select etc ; 
+
+-----------------------------------------------------------------------------------------------------------
+
+QUESTION - what is media queries ? 
+Ans - media queries allow you to make your web pages responsive according to diffrent screen sizes ; 
+the breakpoints for making the page responsive is :- 
+320 to 480px ----------------Mobile Phones ; 
+482px to 768px --------------Ipad or tablets ; 
+769px to 1024px ------------- small screens like laptops ; 
+1025 to 1200px -------------- for large screen like desktops 
