@@ -40,5 +40,13 @@ Ans - BOM stand for BROWSER OBJECT MODEL (BOM) ;
 
 ----------------------------------------------------------------------------------------------------------- 
 QUESTION - why we use box-sizing in css ?  
-ANS - Box size property in css defines how user should calculate  the total width and height of an element means padding and borders are included or not ; 
+ANS - Box size property in css defines how user should calculate  the total width and height of an element means padding and borders are included in it or not ; 
 
+2. By default its context-type - means its includes width and height of the content only , padding or border is not included in it ; 
+ 
+ 3.BORDER-BOX :- In this mode width and height includes content , border padding as well  ; 
+
+
+-----------------------------------------------------------------------------------------------------------
+
+QUESTION - what is diffrence between px, rem , em , unit in css ? 
