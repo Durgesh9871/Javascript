@@ -18,4 +18,5 @@ CSS3 :- css3 makes web pages more attractive and take less time to create
 -----------------------------------------------------------------------------------------------------------
 
 QUESTION - WHAT IS THE SELECTOR IN CSS ? 
-ANS - 
+ANS - Css selector are used to select or find  the html elements that you want to style 
+2. For example :- Id selector , class selector , Elements selector  , universal selector , pseudo class select etc ; 
