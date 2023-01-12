@@ -14,3 +14,8 @@ CSS3 :- css3 makes web pages more attractive and take less time to create
 4. css3 supports the media quesries ;  
 5. css3 is the latest version and release in 2005  ; 
 6. Memory consumption is low ; 
+
+-----------------------------------------------------------------------------------------------------------
+
+QUESTION - WHAT IS THE SELECTOR IN CSS ? 
+ANS - 
