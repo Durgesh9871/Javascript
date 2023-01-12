@@ -30,3 +30,8 @@ the breakpoints for making the page responsive is :-
 482px to 768px --------------Ipad or tablets ; 
 769px to 1024px ------------- small screens like laptops ; 
 1025 to 1200px -------------- for large screen like desktops 
+
+
+-----------------------------------------------------------------------------------------------------------
+
+QUESTION - what is bom in css  -? 
