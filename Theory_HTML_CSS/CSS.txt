@@ -6,9 +6,11 @@ ANS -  CSS :- css is capable for positioning text and objects .
  3. CSS is very slow as compared to css3  
  4. css does not support media queries 
  5.css is developed in 1996 ; 
+ 6.Takes more memory 
 
 CSS3 :- css3 makes web pages more attractive and take less time to create  
 2. css3 is the latest design , So its supports responsiveness  ; 
 3. css3 is very fast ; 
 4. css3 supports the media quesries ;  
-5. css3 is the latest version and release in 2005 
+5. css3 is the latest version and release in 2005  ; 
+6. Memory consumption is low ; 
