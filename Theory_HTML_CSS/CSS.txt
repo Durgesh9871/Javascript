@@ -39,4 +39,6 @@ Ans - BOM stand for BROWSER OBJECT MODEL (BOM) ;
 
 
 ----------------------------------------------------------------------------------------------------------- 
-QUESTION - what is pseudo selector in css ?  
+QUESTION - why we use box-sizing in css ?  
+ANS - Box size property in css defines how user should calculate  the total width and height of an element means padding and borders are included or not ; 
+
