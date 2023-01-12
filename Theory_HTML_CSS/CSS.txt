@@ -3,8 +3,12 @@ CSS ALL IMPORTANT QUESTIONS IS HERE --------------------------------------------
 QUESTIONS - What is diffrence between css and css3 ? 
 ANS -  CSS :- css is capable for positioning text and objects . 
  2. Responsive design is not support in css.  
- 3. CSS is very slow as compared to css3 
+ 3. CSS is very slow as compared to css3  
+ 4. css does not support media queries 
+ 5.css is developed in 1996 ; 
 
 CSS3 :- css3 makes web pages more attractive and take less time to create  
 2. css3 is the latest design , So its supports responsiveness  ; 
 3. css3 is very fast ; 
+4. css3 supports the media quesries ;  
+5. css3 is the latest version and release in 2005 
