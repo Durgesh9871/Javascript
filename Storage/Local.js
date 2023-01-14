@@ -11,3 +11,12 @@
 // 3. They can store a large amount of data compare than cookies; we can store something around 5mb of data in session storage , while coikies we can just store the 4000 bytes of data 
 
 // for ex :- When the user visited the web page and we store some data in session storage, if the user closes the browser or that particular tab So we lost the data completely , 
+
+
+
+
+
+// LOCAL STORAGE  :- 
+
+// LOCAL STORAGE IS SAME LIKE SESSION STORAGE BUT IT DOES NOT COME WITH EXPIERY, ITS DOES NOT CLEAR ITSELF ,EVEN WHEN THE TABS OR THE BROWSER CLOSE THE DATA IS STILL THERE 
+// 2. local storage has the higher memory capacity the session storage and the cookies ; It's varies on device to device but roufly it stores 5mb of data ; 
