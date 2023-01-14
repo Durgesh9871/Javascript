@@ -27,6 +27,7 @@
 // COOKIES :- 
 // 1. cookies are they way to identify the user ; we can say our data is stored in the browser 
 // 2. All the information of the user stored in cookie ; for example :- what is our last activity , on which product we click , etc 
+// 3. we can store 4kb of data in the cokkies -- 4kb 
 
 
 
