@@ -14,4 +14,9 @@
             // * NULL 
             // * UNDEFINED 
             // * SYMBOL 
-                                            
+
+
+ // Strings are im mutable we cannot changed it , here is an example ; 
+ let name = "durgesh" 
+name[3] = "z"
+console.log(name)
