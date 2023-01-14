@@ -20,6 +20,7 @@
 
 // LOCAL STORAGE IS SAME LIKE SESSION STORAGE BUT IT DOES NOT COME WITH EXPIERY, ITS DOES NOT CLEAR ITSELF ,EVEN WHEN THE TABS OR THE BROWSER CLOSE THE DATA IS STILL THERE 
 // 2. local storage has the higher memory capacity the session storage and the cookies ; It's varies on device to device but roufly it stores 5mb of data ; 
+// 3. The local storage is diffrent for each host , origin , port ---
 
 
 
