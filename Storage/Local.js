@@ -7,4 +7,4 @@
 // SESSION STORAGE  ---------------------------
 
 // SESSION_STORAGE :- WHEN WE TALK ABOUT SESSION STORAGE THAT MEANS DATA IS IN THE IN STORAGE FOR THAT ONLY PARTICULAR SESSION ; 
-// for ex :- When the user visited the web page and we store some data in session storage, if the user closes the browser or the tab then we lost the data 
+// for ex :- When the user visited the web page and we store some data in session storage, if the user closes the browser or the tab then we lost the data , 
