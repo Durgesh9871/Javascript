@@ -7,4 +7,7 @@
 // SESSION STORAGE  ---------------------------
 
 // SESSION_STORAGE :- WHEN WE TALK ABOUT SESSION STORAGE THAT MEANS DATA IS IN THE IN STORAGE FOR THAT ONLY PARTICULAR SESSION ; 
-// for ex :- When the user visited the web page and we store some data in session storage, if the user closes the browser or the tab then we lost the data , 
+// 2. But it's very useful than cookies , Unlike cookies the data is not send to the server while makeing the network request ; 
+// 3. They can store a large amount of data compare than cookies; we can store something around 5mb of data in session storage , while coikies we can just store the 4000 bytes of data 
+
+// for ex :- When the user visited the web page and we store some data in session storage, if the user closes the browser or that particular tab So we lost the data completely , 
