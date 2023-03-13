@@ -10,4 +10,6 @@ function topics(arr){
 }
 
 let ans = topics(arr) 
+
+
 console.log(ans)
