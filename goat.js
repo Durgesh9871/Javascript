@@ -35,4 +35,4 @@ for(var i=0 ; i<str.length ; i++){
         // console.log(string[i][0])
     }
 }
-console.log(str)
+console.log(str , "str")
