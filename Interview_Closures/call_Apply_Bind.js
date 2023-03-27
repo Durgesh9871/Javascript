@@ -31,7 +31,8 @@ printNameApply.apply(name2,["sita" ,"jaya" ,"sushma"])
 // THAT WE CAN USE LATER POINT OF TIME. 
 
 let bindMethod = printName.bind(name,"sita" ,"jaya")
-bindMethod("sushma")
+bindMethod("ramanBhoi")
+console.log(bindMethod ,"bindmethod")
 
 
 
