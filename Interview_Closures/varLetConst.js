@@ -28,6 +28,10 @@ console.log("c" , c)
 // z=1 
 
 
+console.log(z)
+const z= 1
+
+
 
 
 
