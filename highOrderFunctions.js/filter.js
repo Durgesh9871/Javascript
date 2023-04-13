@@ -10,3 +10,9 @@ let ans = number.filter((item)=>{
 })
 
 console.log(ans)
+
+
+
+//  forEach does not support an chaning operartion because it does nor return anything like arr.forEach((el)=>{
+    // }) dot and next task, its doest not support this , 
+    // 

@@ -10,7 +10,7 @@ let ans = myName.map((item)=>{
     return item+"yes"
 })
 
-console.log(ans)
+console.log(ans , myName)
 
 
 // FOR EACH METHOD //
@@ -19,5 +19,7 @@ console.log(ans)
 let arr = ["deep" , "sheep" ,"meep" ,"keep" ,"neem" ,"jeep"] 
 
  arr.forEach((item)=>{
-    console.log(item)
+    console.log(item+"2")
 })
+
+// console.log('arr' , arr)
