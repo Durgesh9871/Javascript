@@ -10,7 +10,7 @@ let obj = {
 let copy = obj 
 copy.name = "aman"
 
-console.log(obj)
+console.log(obj ,"obj")
 
 //  Shallow copy ------------------ 
 // In this its does not make the copy of memory allocation, Its makes the copy of value 
